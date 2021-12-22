@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FECB095227149DC300428A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB095127149DC300428A7F /* AppDelegate.swift */; };
+		FECB095427149DC300428A7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB095327149DC300428A7F /* SceneDelegate.swift */; };
+		FECB095927149DC300428A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECB095727149DC300428A7F /* Main.storyboard */; };
+		FECB095B27149DC500428A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECB095A27149DC500428A7F /* Assets.xcassets */; };
+		FECB095E27149DC500428A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECB095C27149DC500428A7F /* LaunchScreen.storyboard */; };
+		FECB096927149DC500428A7F /* WW_Travel_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB096827149DC500428A7F /* WW_Travel_GuideTests.swift */; };
+		FECB097427149DC500428A7F /* WW_Travel_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB097327149DC500428A7F /* WW_Travel_GuideUITests.swift */; };
+		FECB098427149F4B00428A7F /* FirstFlashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB098327149F4B00428A7F /* FirstFlashScreen.swift */; };
+		FECB098627149FD100428A7F /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB098527149FD100428A7F /* LoginScreen.swift */; };
+		FECB09882714A1C300428A7F /* LoginHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB09872714A1C300428A7F /* LoginHomeScreen.swift */; };
+		FEEE009B271DF4D000FEC281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE009A271DF4D000FEC281 /* ViewController.swift */; };
+		FEEE00A3271DFD6300FEC281 /* SingUPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE00A2271DFD6300FEC281 /* SingUPScreen.swift */; };
+		FEEE00A8271DFF3E00FEC281 /* ForgotPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE00A7271DFF3E00FEC281 /* ForgotPasswordScreen.swift */; };
+		FEEE00AD271E003500FEC281 /* VerificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE00AC271E003500FEC281 /* VerificationScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FECB096527149DC500428A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FECB094627149DC300428A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FECB094D27149DC300428A7F;
+			remoteInfo = "WW Travel Guide";
+		};
+		FECB097027149DC500428A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FECB094627149DC300428A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FECB094D27149DC300428A7F;
+			remoteInfo = "WW Travel Guide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FECB094E27149DC300428A7F /* WW Travel Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WW Travel Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECB095127149DC300428A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FECB095327149DC300428A7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FECB095827149DC300428A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FECB095A27149DC500428A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FECB095D27149DC500428A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FECB095F27149DC500428A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECB096427149DC500428A7F /* WW Travel GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WW Travel GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECB096827149DC500428A7F /* WW_Travel_GuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WW_Travel_GuideTests.swift; sourceTree = "<group>"; };
+		FECB096A27149DC500428A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECB096F27149DC500428A7F /* WW Travel GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WW Travel GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECB097327149DC500428A7F /* WW_Travel_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WW_Travel_GuideUITests.swift; sourceTree = "<group>"; };
+		FECB097527149DC500428A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECB098327149F4B00428A7F /* FirstFlashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFlashScreen.swift; sourceTree = "<group>"; };
+		FECB098527149FD100428A7F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		FECB09872714A1C300428A7F /* LoginHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeScreen.swift; sourceTree = "<group>"; };
+		FEEE009A271DF4D000FEC281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEEE00A2271DFD6300FEC281 /* SingUPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUPScreen.swift; sourceTree = "<group>"; };
+		FEEE00A7271DFF3E00FEC281 /* ForgotPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreen.swift; sourceTree = "<group>"; };
+		FEEE00AC271E003500FEC281 /* VerificationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FECB094B27149DC300428A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECB096127149DC500428A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECB096C27149DC500428A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FECB094527149DC300428A7F = {
+			isa = PBXGroup;
+			children = (
+				FECB095027149DC300428A7F /* WW Travel Guide */,
+				FECB096727149DC500428A7F /* WW Travel GuideTests */,
+				FECB097227149DC500428A7F /* WW Travel GuideUITests */,
+				FECB094F27149DC300428A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FECB094F27149DC300428A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FECB094E27149DC300428A7F /* WW Travel Guide.app */,
+				FECB096427149DC500428A7F /* WW Travel GuideTests.xctest */,
+				FECB096F27149DC500428A7F /* WW Travel GuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FECB095027149DC300428A7F /* WW Travel Guide */ = {
+			isa = PBXGroup;
+			children = (
+				FECB098327149F4B00428A7F /* FirstFlashScreen.swift */,
+				FECB095127149DC300428A7F /* AppDelegate.swift */,
+				FECB095327149DC300428A7F /* SceneDelegate.swift */,
+				FECB095727149DC300428A7F /* Main.storyboard */,
+				FEEE00AC271E003500FEC281 /* VerificationScreen.swift */,
+				FEEE00A7271DFF3E00FEC281 /* ForgotPasswordScreen.swift */,
+				FEEE00A2271DFD6300FEC281 /* SingUPScreen.swift */,
+				FEEE009A271DF4D000FEC281 /* ViewController.swift */,
+				FECB09872714A1C300428A7F /* LoginHomeScreen.swift */,
+				FECB098527149FD100428A7F /* LoginScreen.swift */,
+				FECB095A27149DC500428A7F /* Assets.xcassets */,
+				FECB095C27149DC500428A7F /* LaunchScreen.storyboard */,
+				FECB095F27149DC500428A7F /* Info.plist */,
+			);
+			path = "WW Travel Guide";
+			sourceTree = "<group>";
+		};
+		FECB096727149DC500428A7F /* WW Travel GuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				FECB096827149DC500428A7F /* WW_Travel_GuideTests.swift */,
+				FECB096A27149DC500428A7F /* Info.plist */,
+			);
+			path = "WW Travel GuideTests";
+			sourceTree = "<group>";
+		};
+		FECB097227149DC500428A7F /* WW Travel GuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FECB097327149DC500428A7F /* WW_Travel_GuideUITests.swift */,
+				FECB097527149DC500428A7F /* Info.plist */,
+			);
+			path = "WW Travel GuideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FECB094D27149DC300428A7F /* WW Travel Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECB097827149DC500428A7F /* Build configuration list for PBXNativeTarget "WW Travel Guide" */;
+			buildPhases = (
+				FECB094A27149DC300428A7F /* Sources */,
+				FECB094B27149DC300428A7F /* Frameworks */,
+				FECB094C27149DC300428A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WW Travel Guide";
+			productName = "WW Travel Guide";
+			productReference = FECB094E27149DC300428A7F /* WW Travel Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FECB096327149DC500428A7F /* WW Travel GuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECB097B27149DC500428A7F /* Build configuration list for PBXNativeTarget "WW Travel GuideTests" */;
+			buildPhases = (
+				FECB096027149DC500428A7F /* Sources */,
+				FECB096127149DC500428A7F /* Frameworks */,
+				FECB096227149DC500428A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FECB096627149DC500428A7F /* PBXTargetDependency */,
+			);
+			name = "WW Travel GuideTests";
+			productName = "WW Travel GuideTests";
+			productReference = FECB096427149DC500428A7F /* WW Travel GuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FECB096E27149DC500428A7F /* WW Travel GuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECB097E27149DC500428A7F /* Build configuration list for PBXNativeTarget "WW Travel GuideUITests" */;
+			buildPhases = (
+				FECB096B27149DC500428A7F /* Sources */,
+				FECB096C27149DC500428A7F /* Frameworks */,
+				FECB096D27149DC500428A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FECB097127149DC500428A7F /* PBXTargetDependency */,
+			);
+			name = "WW Travel GuideUITests";
+			productName = "WW Travel GuideUITests";
+			productReference = FECB096F27149DC500428A7F /* WW Travel GuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FECB094627149DC300428A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MSc;
+				TargetAttributes = {
+					FECB094D27149DC300428A7F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FECB096327149DC500428A7F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FECB094D27149DC300428A7F;
+					};
+					FECB096E27149DC500428A7F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FECB094D27149DC300428A7F;
+					};
+				};
+			};
+			buildConfigurationList = FECB094927149DC300428A7F /* Build configuration list for PBXProject "WW Travel Guide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FECB094527149DC300428A7F;
+			productRefGroup = FECB094F27149DC300428A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FECB094D27149DC300428A7F /* WW Travel Guide */,
+				FECB096327149DC500428A7F /* WW Travel GuideTests */,
+				FECB096E27149DC500428A7F /* WW Travel GuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FECB094C27149DC300428A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECB095E27149DC500428A7F /* LaunchScreen.storyboard in Resources */,
+				FECB095B27149DC500428A7F /* Assets.xcassets in Resources */,
+				FECB095927149DC300428A7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECB096227149DC500428A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECB096D27149DC500428A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FECB094A27149DC300428A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECB095227149DC300428A7F /* AppDelegate.swift in Sources */,
+				FECB095427149DC300428A7F /* SceneDelegate.swift in Sources */,
+				FEEE00A3271DFD6300FEC281 /* SingUPScreen.swift in Sources */,
+				FECB098427149F4B00428A7F /* FirstFlashScreen.swift in Sources */,
+				FEEE009B271DF4D000FEC281 /* ViewController.swift in Sources */,
+				FECB09882714A1C300428A7F /* LoginHomeScreen.swift in Sources */,
+				FEEE00A8271DFF3E00FEC281 /* ForgotPasswordScreen.swift in Sources */,
+				FEEE00AD271E003500FEC281 /* VerificationScreen.swift in Sources */,
+				FECB098627149FD100428A7F /* LoginScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECB096027149DC500428A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECB096927149DC500428A7F /* WW_Travel_GuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECB096B27149DC500428A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECB097427149DC500428A7F /* WW_Travel_GuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FECB096627149DC500428A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FECB094D27149DC300428A7F /* WW Travel Guide */;
+			targetProxy = FECB096527149DC500428A7F /* PBXContainerItemProxy */;
+		};
+		FECB097127149DC500428A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FECB094D27149DC300428A7F /* WW Travel Guide */;
+			targetProxy = FECB097027149DC500428A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FECB095727149DC300428A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FECB095827149DC300428A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FECB095C27149DC500428A7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FECB095D27149DC500428A7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FECB097627149DC500428A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FECB097727149DC500428A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FECB097927149DC500428A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WW Travel Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mtdigital.WW-Travel-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FECB097A27149DC500428A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WW Travel Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mtdigital.WW-Travel-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FECB097C27149DC500428A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WW Travel GuideTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mtdigital.WW-Travel-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WW Travel Guide.app/WW Travel Guide";
+			};
+			name = Debug;
+		};
+		FECB097D27149DC500428A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WW Travel GuideTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mtdigital.WW-Travel-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WW Travel Guide.app/WW Travel Guide";
+			};
+			name = Release;
+		};
+		FECB097F27149DC500428A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WW Travel GuideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mtdigital.WW-Travel-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WW Travel Guide";
+			};
+			name = Debug;
+		};
+		FECB098027149DC500428A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WW Travel GuideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mtdigital.WW-Travel-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WW Travel Guide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FECB094927149DC300428A7F /* Build configuration list for PBXProject "WW Travel Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECB097627149DC500428A7F /* Debug */,
+				FECB097727149DC500428A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECB097827149DC500428A7F /* Build configuration list for PBXNativeTarget "WW Travel Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECB097927149DC500428A7F /* Debug */,
+				FECB097A27149DC500428A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECB097B27149DC500428A7F /* Build configuration list for PBXNativeTarget "WW Travel GuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECB097C27149DC500428A7F /* Debug */,
+				FECB097D27149DC500428A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECB097E27149DC500428A7F /* Build configuration list for PBXNativeTarget "WW Travel GuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECB097F27149DC500428A7F /* Debug */,
+				FECB098027149DC500428A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FECB094627149DC300428A7F /* Project object */;
+}
